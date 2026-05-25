@@ -1,0 +1,129 @@
+```css id="z4mz7q"
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom right, #f5f7fa, #dbe9f4);
+    color: #333;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+/* =========================
+   TITRE PRINCIPAL
+========================= */
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: #003366;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   PARAGRAPHE
+========================= */
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* =========================
+   SOUS-TITRES
+========================= */
+
+h2{
+    background-color: #003366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: fit-content;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   LISTES
+========================= */
+
+ul{
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+ul li{
+    margin-bottom: 12px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Animation des éléments */
+
+ul li:hover{
+    color: #0055aa;
+    transform: translateX(8px);
+}
+
+/* =========================
+   LIENS
+========================= */
+
+a{
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media(max-width: 768px){
+
+    body{
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    ul{
+        padding: 20px;
+    }
+
+    ul li{
+        font-size: 16px;
+    }
+}
+```

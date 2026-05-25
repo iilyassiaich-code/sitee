@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rerservation.css">
+    <title>Formulaire de réservation</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend><strong><center>Formulaire de réservation</center></strong></legend>
+        <form action="submit_reservation.php" method="post">
+            <label for="name">Nom complet:</label><br>
+            <input type="text" id="name" name="name" placeholder="NOM ET PRENOM"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="EMAIL"><br><br>
+
+            <label for="phone">Numéro de téléphone:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="NUMÉRO DE TÉLÉPHONE"><br><br>
+
+            <label for="checkin">Date d'arrivée:</label><br>
+            <input type="date" id="checkin" name="checkin" required><br><br>
+
+            <label for="checkout">Date de départ:</label><br>
+            <input type="date" id="checkout" name="checkout" required><br><br>
+
+            <label for="room_type">Type de chambre:</label><br>
+            <select id="room_type" name="room_type" required>
+                <option value="">Sélectionnez un type de chambre</option>
+                <option value="simple">Simple</option>
+                <option value="double">Double</option>
+                <option value="suite">Suite</option>
+            </select><br><br>
+
+            <input type="submit" value="Réserver maintenant">
+        </form>
+</body>
+</html>

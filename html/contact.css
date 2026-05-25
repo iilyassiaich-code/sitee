@@ -1,0 +1,129 @@
+/* =========================
+   STYLE GÉNÉRAL
+========================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #c7e3ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* =========================
+   CONTENEUR
+========================= */
+
+.contact-container{
+    background-color: white;
+    width: 500px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* =========================
+   TITRE
+========================= */
+
+h1{
+    color: #0b2c4d;
+    margin-bottom: 30px;
+    font-size: 38px;
+    letter-spacing: 1px;
+}
+
+/* =========================
+   LISTE
+========================= */
+
+ol{
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+
+ol li{
+    background-color: #f4f4f4;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Hover liste */
+
+ol li:hover{
+    background-color: #d6eaf8;
+    transform: translateX(5px);
+}
+
+/* =========================
+   LIENS
+========================= */
+
+a{
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #ff6600;
+}
+
+/* =========================
+   BOUTON
+========================= */
+
+button{
+    background-color: #3498db;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover bouton */
+
+button:hover{
+    background-color: #217dbb;
+}
+
+/* Texte bouton */
+
+button a{
+    color: white;
+    font-size: 16px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width: 600px){
+
+    .contact-container{
+        width: 90%;
+        padding: 25px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+
+    ol li{
+        font-size: 15px;
+    }
+}
